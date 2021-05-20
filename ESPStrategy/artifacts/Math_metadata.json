@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"rabbit-bsc/ESPStrategy/espAddStrategy.sol": "Math"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"rabbit-bsc/ESPStrategy/espAddStrategy.sol": {
+			"keccak256": "0x5632002d6603abd114794b775e3beb1b7d5f166795f3ec82c5d4fe44ae1596b7",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://e1055f2ef1efaf6e6887b5f38440be3bb43a0c4ed8f2ff0a85f4bc79eeec61f7",
+				"dweb:/ipfs/Qmdf7v49szbSk82NLqG6LzvQVse9Q82sFQQYnwm3YGWxjR"
+			]
+		}
+	},
+	"version": 1
+}

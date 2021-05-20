@@ -1,1 +1,1 @@
-# rabbit_fiance_bsc
+# rabbit-bsc
