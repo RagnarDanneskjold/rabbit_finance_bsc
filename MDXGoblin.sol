@@ -1033,6 +1033,11 @@ contract MDXGoblin is Governable,ReentrancyGuardUpgradeSafe, Goblin {
         boardRoomHMDX.deposit(boardRoomHMDXPid,mdx.myBalance());
     }
     
+    function earned(address _user) public view returns (uint256) { 
+        uint256 pending = userShare[_user].mul(accMDXPerShare).div(1e12).sub(rewardDebt[_user]);
+        return userReward[_user].add(pending);
+    }
+    
     // Harvest Rabbits earn from the pool.
     function harvest() public onlyEOA nonReentrant{
         _reinvest();
